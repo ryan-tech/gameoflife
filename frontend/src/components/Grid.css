@@ -1,0 +1,8 @@
+.grid {
+    display: grid;
+    gap: 1px;
+    background-color: #ccc;
+    padding: 1px;
+    margin: 0 auto;
+    justify-content: center;
+}
