@@ -1,0 +1,12 @@
+service SimulationAPI {
+
+    // Grid is a 2 dimensional array of booleans representing the state of the simulation. Each boolean value indicates whether a cell is alive (true) or dead (false).
+    message Grid {
+        
+    }
+
+    // Calculates the resulting grid after one step of the simulation
+    rpc NextStep(Grid) returns (Grid) {}
+
+
+}
